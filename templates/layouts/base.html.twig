@@ -8,6 +8,12 @@
         {% block javascripts %}{% endblock %}
     </head>
     <body>
-        {% block body %}{% endblock %}
+        {{include ('layouts/partials/_nav.html.twig')}}
+        {{include ('layouts/partials/_flash_messages.html.twig')}}
+
+        <main role="main">
+            {% block body %}{% endblock %}
+        </main>
+       
     </body>
 </html>

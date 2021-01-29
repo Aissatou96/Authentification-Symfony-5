@@ -2,6 +2,9 @@
     "composer/package-versions-deprecated": {
         "version": "1.x-dev"
     },
+    "dnoegel/php-xdg-base-dir": {
+        "version": "v0.1.1"
+    },
     "doctrine/annotations": {
         "version": "1.0",
         "recipe": {
@@ -125,6 +128,9 @@
     },
     "psr/log": {
         "version": "1.1.x-dev"
+    },
+    "psy/psysh": {
+        "version": "0.10.x-dev"
     },
     "sensio/framework-extra-bundle": {
         "version": "5.2",
@@ -507,6 +513,9 @@
     },
     "symfony/yaml": {
         "version": "5.x-dev"
+    },
+    "theofidry/psysh-bundle": {
+        "version": "dev-master"
     },
     "twig/extra-bundle": {
         "version": "3.x-dev"
