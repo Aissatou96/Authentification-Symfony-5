@@ -73,11 +73,7 @@ class LoginFormAuthenticator extends AbstractAuthenticator{
         ]);
     }
     
-    
-    
-    
 
-    
 
     /**
      * Called when authentication executed and was successful!
